@@ -7,7 +7,10 @@ $('.dropdown-trigger').dropdown();
 
 $(document).ready(function(){
     $('.sidenav').sidenav();
+    
 });
+
+
 
 
 (function($) {
@@ -18,3 +21,13 @@ $(document).ready(function(){
         }
     });
 }(jQuery));
+
+
+$(document).ready(function(){
+    $('.StudiesCard').collapsible();
+    $('.WorkCard').collapsible();
+    $('.collapsible').collapsible();
+  });
+
+$(".background-cards").attr("background-image", url())
+
