@@ -29,5 +29,4 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
   });
 
-$(".background-cards").attr("background-image", url())
 

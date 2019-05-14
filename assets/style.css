@@ -90,7 +90,7 @@ h1
 .CVStudies
 {
   z-index: 9;
-  width: 3000px;
+  width: 2700px;
   height: 100%;
 
 }
@@ -103,7 +103,7 @@ h1
 }
 
 .CVcards{
-  width: 350px;
+  width: 500px;
   position: relative;
   top: 20%;
 
@@ -129,26 +129,26 @@ h1
   .ImgMe {
     background-image: url(./images/BGme1400w.png)
   }
+  .CVcards{
+    width: 400px;
+  }
 
 }
 @media screen and (max-width:768px) {
   .ImgFondo {
     background-image: url(./images/BGFondot1080.png)
   }
-  /* .ImgMe {
-    background-image: url(./images/BGme1080.png)
-  } */
   .background-cards{
     background-image: url(./images/FondoProyects800w.JPG);
+  }
+  .CVcards{
+    width: 350px;
   }
 }
 @media screen and (max-width:640px) {
   .ImgFondo {
     background-image: url(./images/BGFondot1080.png)
   }
-  /* .ImgMe {
-    background-image: url(./images/BGme1080.png)
-  } */
   .background-cards{
     background-image: url(./images/FondoProyects400w.JPG);
   }
